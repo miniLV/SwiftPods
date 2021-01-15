@@ -1,0 +1,6 @@
+framework module MNSwiftPods {
+  umbrella header "MNSwiftPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
