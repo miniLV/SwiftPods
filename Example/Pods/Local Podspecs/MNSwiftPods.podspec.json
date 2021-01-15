@@ -12,7 +12,7 @@
     "miniLV": "tyrion.liang@ringcentral.com"
   },
   "source": {
-    "git": "https://github.com/miniLV/MNSwiftPods.git",
+    "git": "https://github.com/miniLV/SwiftPods.git",
     "tag": "0.1.0"
   },
   "platforms": {
