@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MNSwiftPods'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of MNSwiftPods.'
 
 # This description is used to generate tags and improve search results.
@@ -33,10 +33,13 @@ TODO: Add long description of the pod here.
   s.source_files = 'MNSwiftPods/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'MNSwiftPods' => ['MNSwiftPods/Assets/*.png']
+    # 'MNSwiftPods' => ['MNSwiftPods/Classes/Framework/*.*']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  # s.static_framework = true
+  s.vendored_frameworks = 'MNSwiftPods/Classes/Framework/*.framework'
+
 end
